@@ -1,0 +1,1 @@
+package viikko4.lab; public final class TravelUtils { private TravelUtils(){} public static Double sumTravelTimes(Vehicle[] arr, Double km){ /*TODO*/ return 0.0; } }

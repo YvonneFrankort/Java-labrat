@@ -1,0 +1,1 @@
+package viikko4.lab; public class PowerBank extends Device implements Rechargeable { private int battery; public PowerBank(String name,Integer b){ super(name); /*TODO*/ this.battery=b;} public void recharge(Integer minutes){ /*TODO*/ } public void discharge(Integer minutes){ /*TODO*/ } public Integer batteryPercent(){ return battery; } }

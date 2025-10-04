@@ -1,0 +1,1 @@
+package viikko4.lab; public abstract class Device { protected String name; public Device(String name){ /*TODO*/ this.name=name; } public abstract Integer batteryPercent(); }

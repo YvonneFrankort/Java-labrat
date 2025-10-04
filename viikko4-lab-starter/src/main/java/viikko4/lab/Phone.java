@@ -1,0 +1,1 @@
+package viikko4.lab; public class Phone extends Device implements Rechargeable { private int battery; public Phone(String name,Integer b){ super(name); /*TODO*/ this.battery=b;} public void use(Integer minutes){ /*TODO*/ } public void recharge(Integer minutes){ /*TODO*/ } public Integer batteryPercent(){ return battery; } }
