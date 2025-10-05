@@ -5,7 +5,13 @@ public class Person {
     private Integer age;
 
     public Person(String name, Integer age) {
-        /* TODO validate */ this.name = name;
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("Väärä arvo!");
+        }
+        if (age == null || age < 0) {
+            throw new IllegalArgumentException("Väärä arvo!");
+        }
+        this.name = name;
         this.age = age;
     }
 
